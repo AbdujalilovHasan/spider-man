@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px;
+    background-color: #272a4b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #272a4b;
+    box-shadow: 0px 5px 10px 5px black;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.8s;
+}
+
+ul li a:hover {
+    color: red;
+    transition: .8s;
+}
+
+.row {
+    display: flex;
+}
+
+.col-6 {
+    text-align: center;
+    width: 600px;
+}
+
+.first {
+    margin-top: 50px;
+}
+
+.studio {
+    margin-top: -22px;
+}
+
+.spiderman-img {
+    margin-top: -40px;
+    text-align: start;
+    color: white;
+    font-size: 16px;
+}
+
+.reletive {
+    position: relative;
+}
+
+.black-spider {
+    position: absolute;
+    width: 400px;
+    left: 840px;
+    top: 162px;
+}
+
+.watches {
+    /* display: flex;
+    margin-top: 70px;
+    margin-left: 50px;
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 10px; */
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.watches p {
+    font-size: 18px;
+}
+
+button {
+    display: flex;
+    /* margin-top: -55px; */
+    /* margin-left: 220px; */
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: #272a4b;
+    padding: 13px 23px;
+    color: white;
+}
+
+.more-info {
+    /* gap: 10px;
+    margin-left: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.play-vidio {
+    display: flex;
+    margin-top: -40px;
+    margin-right: 410px;
+}
+
+.text {
+    color: white;
+}
+
+
+
+.fa-solid:hover{
+    cursor: pointer;
+}
